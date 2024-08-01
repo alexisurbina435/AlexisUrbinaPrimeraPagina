@@ -56,44 +56,52 @@ header nav ul li{
 }
 
 /* FORMULARIO */
-.titulo{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
 .formulario {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 20px;
     padding-top: 20px;
     background-color: black;
     color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+.titulo{
+    margin-bottom: 10px;
+}
 label{
     margin: 10px 0;
+    font-weight: 700;
 }
+
 input{
     padding: 10px;
     border-radius: 10px;
 }
 
+input, .consulta{
+    outline: none;
+}
 .consulta{
     resize: none;
-    width: 400px;
+    width: 300px;
     height: 100px;
-    border: 5px solid white;
-    border-radius: 10px;
+    padding: 2px 5px;
+    border-radius: 5px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
 .btn{
-    margin: 10px;
+    width: 100px;
+    margin: 10px 0;
+    border-radius: 25px;
+    background-color: #DA5E58;
+    color: white;
+    cursor: pointer;
 }
 .btn:hover{
-    background-color: #DA5E58;
+    background-color: red;
 }
 
 /* SECTION */

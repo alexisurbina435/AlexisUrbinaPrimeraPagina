@@ -73,13 +73,16 @@ header nav ul li{
     background-color: grey ;
 }
 input{
-    height: 20px;
     text-align: center;
     margin: 10px 0;
     border-radius: 10px;
     width: 80%;
     padding: 2px;
     font-size: 20px;
+    outline: none;
+}
+input:hover{
+    border: 2px solid black;
 }
 
 button{
@@ -87,6 +90,11 @@ button{
     height: 40px;
     width: 22%;
     background-color: #DA5E58;
+    cursor: pointer;
+}
+button:active{
+    background-color: red;
+    color: black;
 }
 .total{
     display: flex;
