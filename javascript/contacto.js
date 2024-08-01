@@ -24,7 +24,7 @@ btn.addEventListener("click", (e) => {
 function validar() {
     let invalidacion = /^[a-zA-ZéÉáÁíóúÍÓÚÑñ\s]*$/;
     let invalidacion2 = /^([0-9])*$/;
-    let email = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
+    let email = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{3,63}$/i;
     if (nombreYapellido.value == "" || correo.value == "" || telefono.value == "" || consulta.value == "") {
         alert("Por favor, completar todo");
     } else if (nombreYapellido.value.length < 5) {
