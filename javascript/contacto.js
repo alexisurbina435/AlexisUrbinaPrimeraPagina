@@ -26,7 +26,7 @@ function validar() {
     let invalidacion2 = /^([0-9])*$/;
     let email = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{3,63}$/i;
     if (nombreYapellido.value == "" || correo.value == "" || telefono.value == "" || consulta.value == "") {
-        alert("Por favor, completar todo");
+        alert("Por favor, completar todas las casillas");
     } else if (nombreYapellido.value.length < 5) {
         alert("Ingrese un nombre con 6 caracteres o más ");
     } else if (!invalidacion.test(nombreYapellido.value)) {
