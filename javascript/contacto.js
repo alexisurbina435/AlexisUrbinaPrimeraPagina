@@ -6,13 +6,6 @@ let consulta = document.getElementById("consulta");
 let btn = document.getElementById("btn");
 let informacion = [];
 
-let nombreError = document.getElementById("nombre-error");
-let correoError = document.getElementById("email-error");
-let telefonoError = document.getElementById("telefono-error");
-let consultaError = document.getElementById("textarea-error");
-
-
-
 btn.addEventListener("click", (e) => {
     informacion[0] = `Su nombre y apellido es: ${nombreYapellido.value} `;
     informacion[1] = `El correo electronico es: ${correo.value} `;
