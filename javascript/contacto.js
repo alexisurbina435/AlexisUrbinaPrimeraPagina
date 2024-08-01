@@ -40,6 +40,7 @@ function validar() {
     } else if (consulta.value.length < 9) {
         alert("Ingrese 10 caracteres o mas para su consulta");
     } else {
+        alert("Formulario enviado")
         let blob = new Blob([informacion], { type: "text/plain;charset=utf-8" });
         saveAs(blob, "contacto.txt");
     }

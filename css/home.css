@@ -9,8 +9,9 @@ body {
     margin: 0;
 }
 
-/* HEADER     */
-
+/* ---------------------------------------------------------------------
+HEADER    
+--------------------------------------------------------------------- */
 .header {
     width: 100%;
     height: 200px;
@@ -61,8 +62,10 @@ header nav ul li {
     width: 100%;
 }
 
-/* SECTION */
-
+/* 
+---------------------------------------------------------------------
+SECTION
+--------------------------------------------------------------------- */
 .contenedor {
     display: flex;
     align-items: center;
@@ -97,12 +100,23 @@ figure figcaption {
     font-size: 20px;
 }
 
+/* ---------------------------------------------------------------------
+    HORARIOS
+-------------------------------------------------------------------- */
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
 .horarios {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #DA5E58;
     border-radius: 10px;
+    width: 50%;
     margin: 5px 0;
     padding: 50px 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -118,7 +132,9 @@ figure figcaption {
     margin: 10px 0;
 }
 
-/* FOOTER */
+/* ---------------------------------------------------------------------
+FOOTER
+--------------------------------------------------------------------- */
 .footer {
     width: 100%;
     height: 200px;
@@ -141,15 +157,16 @@ figure figcaption {
     display: flex;
     margin: 0 20px;
 }
-.redes li a{
+
+.redes li a {
     margin: 0 10px;
 }
 
-.nombre p{
+.nombre p {
     margin-top: 70px;
 }
 
-.facebook i{
+.facebook i {
     margin-right: 20px;
     color: black;
 
@@ -160,7 +177,7 @@ figure figcaption {
     transition: 500ms;
 }
 
-.instagram i{
+.instagram i {
     color: black;
 }
 
