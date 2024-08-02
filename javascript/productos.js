@@ -41,9 +41,9 @@ for (let i = 0; i < btn.length; i++) {
         let cantidad = parseInt(entrada[i].value);
         if (cantidad > 0 && (stock[i] - cantidad) >= 0) {
             stock[i] -= cantidad;
-            stockElements[i].innerHTML =`Stock: ${stock[i]}`;
+            stockElements[i].innerText =`Stock: ${stock[i]}`;
             total[i] += cantidad * precios[i];   
-            totalElement[i].innerHTML =`Total: $${total[i]}`;
+            totalElement[i].innerText =`Total: $${total[i]}`;
             alert("Compra exitosa");
         }else if(cantidad > 0 && stock[i] == 0){
             alert("No hay mas stock");
