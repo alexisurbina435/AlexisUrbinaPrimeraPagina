@@ -51,6 +51,7 @@ header nav ul li{
     height: 2px;
     background: black;
     display: block;
+    transition: 400ms;
 }
 .links li a:hover::after{
     width: 100%;
