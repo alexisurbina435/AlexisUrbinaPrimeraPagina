@@ -91,16 +91,35 @@ figure figcaption {
     margin: 40px 0;
     font-weight: 400;
 }
-
+.historia .nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
 .historia .nosotros .subtitulo {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
+    margin: 20px;
+    text-align: center;
 }
 
 .historia .nosotros .parrafo {
     font-size: 20px;
+   text-align:justify;
 }
-
+.primer-parrafo{
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.segundo-parrafo{
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 /* ---------------------------------------------------------------------
     HORARIOS
 -------------------------------------------------------------------- */
