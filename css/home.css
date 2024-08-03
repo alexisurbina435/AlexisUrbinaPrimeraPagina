@@ -23,7 +23,6 @@ HEADER
     align-items: center;
     background-color: #DA5E58;
     position: fixed;
-    top: 0;
     right: 0;
     left: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
